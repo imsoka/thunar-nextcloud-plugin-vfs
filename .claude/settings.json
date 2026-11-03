@@ -1,13 +1,14 @@
 {
   "extraKnownMarketplaces": {
-    "cursor-plugins": {
+    "pstack-claude": {
       "source": {
         "source": "github",
-        "repo": "cursor/plugins"
+        "repo": "michael-denyer/pstack-claude",
+        "ref": "v0.9.119"
       }
     }
   },
   "enabledPlugins": {
-    "pstack@cursor-plugins": true
+    "pstack@pstack-claude": true
   }
 }
